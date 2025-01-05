@@ -41,6 +41,7 @@ int main(void) {
   TK_init();                        // init ADC for touch key
   TK_input(PIN_TK1);                // set touch key pin
   PIN_output(PIN_LED);              // set LED pin to output
+  PIN_input_AN(PIN_TK1);            // set touch pin as analog input
 
   // Loop
   while(1) {

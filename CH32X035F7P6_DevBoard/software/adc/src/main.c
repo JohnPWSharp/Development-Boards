@@ -41,6 +41,7 @@ int main(void) {
   // Setup
   ADC_init();                   // init ADC
   CDC_init();                   // init USB CDC
+  PIN_input_AN(PIN_ADC);        // set pin as analog input
   
   // Loop
   while(1) {

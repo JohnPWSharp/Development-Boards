@@ -57,7 +57,7 @@ sudo pip install pyusb
 ```
 
 # Preparing Arduino IDE
-- [Install ch55xduino](https://github.com/DeqingSun/ch55xduino).
+- [Install ch55xduino](https://github.com/DeqingSun/ch55xduino). Use version 0.0.16!
 - Open the Arduino IDE.
 - Go to "Tools" -> "Board" -> "CH55x Boards" and select your chip.
 - Go to "Tools" and set the desired board options.
